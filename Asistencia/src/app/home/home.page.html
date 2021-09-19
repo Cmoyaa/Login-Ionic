@@ -19,7 +19,7 @@
       <ion-list>
         <ion-item>
           <ion-icon name="home-outline" slot="start"></ion-icon>
-          <ion-label class="lb" routerLink="/home">Inicio</ion-label>
+          <ion-label class="lb" routerLink="/login">Inicio</ion-label>
         </ion-item>
         <ion-item>
           <ion-icon name="clipboard-outline" slot="start"></ion-icon>
@@ -36,9 +36,9 @@
   <div class="ion-page" id="main-content">
     <ion-content fullscreen="true">
       <ion-card class="card">
-        <img class="img" src="https://yt3.ggpht.com/ytc/AKedOLTIKvrKZgoI4HQK6eIN4kGEA9bGiYZO21MdXz2e=s900-c-k-c0x00ffffff-no-rj">
+        <img class="img" src="https://colegiobajomolle.cl/wp-content/uploads/ico_asistencia.png">
         <ion-card-header>
-          <ion-card-title>¡Bienvenid@, {{"hola mundo"}}!</ion-card-title>
+          <ion-card-title>¡Bienvenid@, {{usuarioIngresado}}!</ion-card-title>
         </ion-card-header>
         <ion-card-content class="texto">
           <div class="modificar">
@@ -49,3 +49,4 @@
     </ion-content>
   </div>
 </ion-app>
+
