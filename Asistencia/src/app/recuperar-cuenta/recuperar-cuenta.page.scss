@@ -1,0 +1,18 @@
+ion-content {
+    --background: linear-gradient(-20deg,rgba(255, 255, 255, 0.801), rgba(0,0,0,0.1)),
+    url("https://i.ibb.co/xJtzDhN/system-2457648-1280.jpg") no-repeat top;
+}
+
+.recuperar-section {
+    height: 75%;
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    margin: auto;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 55px;
+}
