@@ -1,9 +1,25 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>recuperarCuenta</ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-
+  <div class="login-section ion-padding">
+    <div class="heading ion-padding">
+      <h2>¿Olvidaste tu contraseña?</h2>
+      <p>Ingrese su usuario a continuación:</p>
+    </div>
+    <div class="login-form ion-padding">
+      <div class="form-input">
+        <ion-icon name="person-outline"></ion-icon>
+        <ion-item>
+          <ion-label position="floating">Usuario</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+      </div>
+    </div>
+    <div class="aviso">
+      <p>*Se enviará un correo con los pasos a seguir para restablecer su contraseña.</p>
+    </div>
+    <div class="action-buttons ion-padding">
+      <ion-button size="default" color="tertiary" class="enviar-button" routerLink="/login">Enviar</ion-button>
+      <p class="forgot">¿Recuerdas tu contraseña?</p>
+      <ion-button size="default" color="success" class="login-button" routerLink="/login">Inicia Sesión</ion-button>
+    </div>
+  </div>
 </ion-content>
