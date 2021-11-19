@@ -13,7 +13,7 @@ ion-content {
     bottom: 0;
     position: fixed;
     margin: auto;
-    border-top-left-radius: 60px;
+    border-top-left-radius: 55px;
     border-top-right-radius: 55px;
 
     .action-buttons {
@@ -72,5 +72,69 @@ ion-content {
                 --padding-top: 36px;
             }
         }
+    }
+}
+
+@media (min-width: 320px) {
+    .login-section {
+        height: 85%;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 400px) {
+    .login-section {
+        height: 80%;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .login-form {
+        padding-top: 50px;
+    }
+
+    .action-buttons {
+        padding-top: 50px;
+    }
+
+    .signup-button {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .login-section {
+        height: 70%;
+        width: 100%;
+        max-width: 800px;
+    }
+
+    .login-form {
+        padding-top: 50px;
+    }
+
+    .action-buttons {
+        padding-top: 50px;
+    }
+
+    .signup-button {
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .login-section {
+        height: 70%;
+        width: 80%;
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .login-section {
+        height: 70%;
+        width: 80%;
+        max-width: 1280px;
     }
 }
